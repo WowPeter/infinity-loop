@@ -15,6 +15,16 @@ Announced by Tim Cook on September 9, 2014, the device was available for pre-ord
 >“You can only do so many things great, and you should cast aside everything else.”
 ><cite>― Tim Cook</cite>
 
+<!-- 마크다운에서 HTML 코드 사용 -->
+<iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086314273726!2d-122.41941548468149!3d37.77492977975859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c2f8f85e3%3A0x9980112b7e8cd8aa!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1614303961871!5m2!1sen!2sus" 
+  width="600" 
+  height="450" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy">
+</iframe>
+
 Rumors surrounded an Apple-developed wearable back as far as 2011, which conceptualized the device as a variation of the iPod that would curve around the user's wrist, and feature Siri integration. On February 10, 2013, both The New York Times and The Wall Street Journal reported that Apple was beginning to develop an iOS-based smartwatch with a curved display. On February 12, 2013, Bloomberg reported that Apple's smartwatch project was "beyond the experimentation phase in its development", and had a team of at least 100 designers were working on the project. Further reports in March 2013 indicated that Apple planned to release the device by the end of the year. In July 2013, Financial Times reported that Apple had begun hiring more employees to work on the smartwatch, and that it was targeting a possible retail release in late 2014.
 
 ## Unveiling & Release
