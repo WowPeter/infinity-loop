@@ -23,6 +23,8 @@ In April 2014, Apple CEO [Tim Cook](https://en.wikipedia.org/wiki/Tim_Cook) told
 
 Apple Watch was first unveiled after a classic and ever infamous *"We do have 'one more thing'..."* slide, which heard enormous applause, on September 9, 2014 during a press event which also saw the introduction of the iPhone 6. After the reveal video, the auditorium erupted with applause while Tim Cook rolled back his sleeve, revealing an Apple Watch on his wrist. Speaking about the device, Apple CEO Tim Cook explained that Apple Watch was "a new, intimate way to communicate from your wrist, and a comprehensive health and fitness device."
 
+{% include image_caption.html imageurl="images/apple-watch-in-car.jpg" title="Apple Watch" caption="Apple watch on the wrist" %}
+
 In comparison to other Apple products and competing smartwatches, marketing of Apple Watch focused more on advertising the device as a fashion accessory; a 12-page advertising spread for Apple Watch in an issue of Vogue focused primarily on the different body and band styles available, and downplayed the technological aspects of it. Apple has also, in particular, focused upon its health and fitness-oriented features, competing against dedicated activity trackers.
 
 {% include image_full.html imageurl="images/apple-watch-in-car.jpg" title="Apple Watch" caption="Apple watch on the wrist" %}
