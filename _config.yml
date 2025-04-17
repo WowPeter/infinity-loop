@@ -29,13 +29,13 @@ google_analytics: ""
 # Site navigation - each item must have a title and a url.
 navigation:
   - text: Home
-    url: /
+    url: /infinity-loop/
   - text: About
-    url: /about/
+    url: /infinity-loop/about/
   - text: Style Guide
-    url: /style-guide/
+    url: /infinity-loop/style-guide/
   - text: Tags
-    url: /tags/
+    url: /infinity-loop/tags/
   # - text: Download
   #   url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 
