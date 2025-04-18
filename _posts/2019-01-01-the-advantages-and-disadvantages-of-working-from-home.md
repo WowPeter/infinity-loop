@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "The Advantages & Disadvantages of Working from Home"
-description: "A work at home parent is an entrepreneur who works from home and integrates parenting into his or her business activities."
-date: 2019-01-01
+title: "Github Page를 만들다"
+description: "아무것도 모르고 그냥 만들기"
+date: 2025-04-18
 feature_image: images/desk.jpg 
-tags: [tips, work]
+tags: [github page, work]
 ---
 
 A work at home parent is an entrepreneur who works from home and integrates parenting into his or her business activities. They are sometimes referred to as a WAHM *(work at home mom)* or a WAHD *(work at home dad)*.
