@@ -4,10 +4,10 @@ title: "Github Page를 만들다"
 description: "아무것도 모르고 그냥 만들기"
 date: 2025-04-18
 feature_image: images/desk.jpg 
-tags: [github page, work]
+tags: [github page, life]
 ---
 
-A work at home parent is an entrepreneur who works from home and integrates parenting into his or her business activities. They are sometimes referred to as a WAHM *(work at home mom)* or a WAHD *(work at home dad)*.
+컴퓨터 앞에 앉아서, 멍~하니 모니터를 보곤 한다. 사실, 모니터를 본다기 보단 그저 내 시선이 모니터 화면을 향할 뿐이다. 그럴 때가 있지 않은가? 시선이 먼저 떨어졌는지 사색에 먼저 빠진 건지 모르는. 마치, 정확히 언제부터 잠들었는지 가를 수 없는. 어느 순간 정신차리고 보니, 나의 눈은 모니터를 향하고 있었고 나의 머리에서는 한 가지 아이디어가 떠오르고 있었다.
 
 Entrepreneurs choose to run businesses from home for a variety of reasons, including lower business expenses, personal health limitations, eliminating commuting, or in order to have a more flexible schedule. This flexibility can give an entrepreneur more options when planning tasks, business and non-business, including parenting duties. While some home-based entrepreneurs opt for childcare outside the home,[1] others integrate child rearing into their work day and workspace. The latter are considered work-at-home parents.
 
