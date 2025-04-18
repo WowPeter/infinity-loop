@@ -15,7 +15,7 @@ title: "Infinity Loop"
 description: "언어, 코딩, 개발, 그리고 개발자의 삶"
 
 # The subpath of your site, e.g. /blog, for generating urls.
-baseurl: ""
+baseurl: "/infinity-loop"
 
 # The base hostname & protocol of your site for where absolute urls are needed.
 url: "https://wowpeter.github.io/infinity-loop"
