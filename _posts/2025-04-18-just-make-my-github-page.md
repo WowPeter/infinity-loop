@@ -11,11 +11,11 @@ tags: [github page, life]
 
 >"블로그(사이트)를 만들어야겠다"
 
-그래도 내가 개발자인데... 내가 컨트롤할 수 있는 블로그를 만들고 싶었다. 블로그 서비스가 제공하는 것을 이용하면 편하고 좋겠지만 그러고 싶지 않았다. 그래서, **Github Page**를 해본다.
+그래도 내가 개발자인데... 내가 컨트롤할 수 있는 블로그를 만들고 싶었다. 블로그 서비스가 제공하는 것을 이용하면 편하겠지만 그러고 싶지 않았다. 스트리밍 음악 서비스가 주는 편리함과 좋은 음질 대신 수고스런 LP를 고집하는 느낌같다고나 할까? 조금은 더 번거롭고 조금은 더 손이 많이 가며 남들보다 덜 효율적인... 하지만 그 수고로운 작업 과정이 주는 소소한 행복을 얻고 싶었다.
+
+그래서, **Github Page**를 해본다.
 
 <!--more-->
-
-Many WAHPs start home-based businesses in order to care for their children while still creating income. The desire to care for one's own children, the incompatibility of a 9-to-5 work day with school hours or sick days, and the expense of childcare prompt many parents to change or leave their jobs in the workforce to be available to their children. Many WAHPs build a business schedule that can be integrated with their parenting duties.
 
 ## Concept
 
