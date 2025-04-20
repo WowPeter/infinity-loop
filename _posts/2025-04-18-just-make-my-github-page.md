@@ -4,7 +4,7 @@ title: "Github Page를 만들다"
 description: "아무것도 모르고 그냥 만들기"
 date: 2025-04-18
 feature_image: images/desk.jpg 
-tags: [github page, life]
+tags: [github page]
 ---
 
 컴퓨터 앞에 앉아서, 멍~하니 모니터를 보곤 한다. 사실, 모니터를 본다기 보단 그저 내 시선이 모니터 화면을 향했을 뿐이다. 그럴 때가 있지 않은가? 시선이 먼저 떨어졌는지 사색에 먼저 빠진 건지 모르는. 마치, 정확히 언제부터 잠들었는지 가를 수 없는. 어느 순간 정신차리고 보니, 나의 눈은 모니터를 향하고 있었고 나의 머리에서는 한 가지 아이디어가 떠오르고 있었다.
@@ -15,16 +15,19 @@ tags: [github page, life]
 
 그래서, **Github Page**를 해본다.
 
+## Why Github Page
+[Github Page](https://pages.github.com "Github Page")는 나에게 매우 매력적으로 다가왔다.
+
 <!--more-->
 
-## Concept
+### Free of charge for every GitHub user
+(이 글을 쓰는 현재) 무료다. 내가 비지니스를 운영하는 거라면 기꺼이 돈을 쓰는 게 맞다. 비지니스를 하면서 돈을 안 쓴다는 건 도둑놈 심보 아니겠는가? 어쨌든 **Github Page**는 무료다. Github 사용자이기만 하면 된다. Github를 사용하던 안하던 개발자라면 계정 하나쯤은 가지고 있지 않은가! 심지어 나는 계정이 3개나 있다! (왜 그렇게 많이 생긴 건지도 모른다)
 
-The Fusion Festival combines all styles of the underground electronic music scene and various other styles, sometimes depending on the attendees who choose to play their own music. It is described as a space people go to free their minds from their everyday lives, jobs, studies and other responsibilities. It is the result of the search for an alternative through music, to the system "people are forced to live in". People go to the Fusion to experience a different way of socializing and living, where experiencing one another freely, sharing love for music and art connects different scenes and minds. It is a clothing-optional event. Art installations include performance arts, static artworks, sculptures, art cars and various other forms.
+### Root access
+사이트 또는 블로그에 admob과 같은 광고 모듈을 추가하거나 크롤링을 막고자 할 때 등과 같이, 자주는 아니지만 루트 권한이 필요할 때가 있다. 대부분의 블로그 서비스들과는 다르게 Github Page는 가능하다. 이것은 나에게 매우 중요한 선택 조건이다.    
 
-Fusion Festival began in 1997 near the city of Lärz in north-eastern Germany, about 160 km from Berlin and 230 km from Hamburg.
+### I can make it WHATEVER I WANT
+**자유에는 책임(의무)이 따른다.** 내 블로그를 내 맘대로 만들 수 있다는 것은 그 만큼의 노력이 필요하다는 뜻이다. 단순히 포스팅을 하는 수고로움 뿐만 아니라 사이트를 관리하고 다듬어야 하는 책임이 따른다. 블로그 서비스를 이용했다면 하지 않아도 되는 일들을 직접 해야 한다. 하지만 그렇기 때문에 내 블로그에 대한 자유가 생긴다. 흰 바탕에 파란 글씨들로 채워진 모양을 만든다해도 그건 내 자유다. 이 얼마나 멋지고 수고스런 일인가! 🩷    
 
-## Festival Site
-
-The location is on the original grass-covered grounds of a disused military airfield (at 53°20′48.11″N 12°44′23.25″E for the 234-hectare area central field) about 4.5 km (2.25 miles) due north of the modern Rechlin-Lärz Airfield facility. The site was first acquired by the German Empire in 1916 as an aviation research and training ground, opening the facility for use by the Luftstreitkräfte in August 1918. After the establishment of the Luftwaffe in 1935, the field served as the Erprobungsstelle Rechlin central military aircraft test facility of the Third Reich through early 1945, and it was captured by the Soviet Red Army on May 2, 1945, for use by the VVS. 
-
-There are grass-covered concrete hangars (actual bunkers) from that time that were used for Soviet fighter aircraft (hence the Cyrillic transliteration of the festival name and various stages, as many Cyrillic inscriptions were still present on the site). The airfield was reopened for civilian use in 1994 and sold to the Müritz Airpark Group in 2010. [[Source](https://en.wikipedia.org/wiki/Fusion_Festival)]
+## Keep looping
+나는 이 멋진 블로그 세계로 들어간다. 걷다보면 Github Page의 그늘도 보게 되리라. 그리고 그것 또한 봐야할 풍경이리라. 이 길의 시작을 [Scriptor Ghost Theme](https://justgoodthemes.com/ghost-themes/scriptor/ "Scriptor Ghost Theme")으로 시작해본다.
