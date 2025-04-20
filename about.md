@@ -28,6 +28,5 @@ feature_image: images/about.jpg
 * 입문자를 위한 아이폰 게임 개발, 제이펍
 * 맥과 아이폰 개발자를 위한 XCODE, 제이펍
 
-###### Contact <br/> naya.peter@gmail.com
-
+###### Contact <br/> [naya.peter@gmail.com](mailto:naya.peter@gmail.com "mailto:naya.peter@gmail.com")
 *Thank You for reading!*
