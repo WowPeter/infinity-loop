@@ -32,8 +32,8 @@ navigation:
     url: /infinity-loop
   - text: About
     url: /infinity-loop/about
-  - text: Style Guide
-    url: /infinity-loop/style-guide
+#  - text: Style Guide
+#    url: /infinity-loop/style-guide
   - text: Tags
     url: /infinity-loop/tags
   # - text: Download
