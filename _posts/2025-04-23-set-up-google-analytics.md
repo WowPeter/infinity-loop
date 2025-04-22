@@ -26,7 +26,7 @@ tags: [google analytics, jekyll]
 
 이제 슬슬 Google Analytics를 붙여 볼까나!
 
-## History
+### History
 
 Centered around the device's size; the majority of iPhone models have used 3.5-inch displays—which are smaller than screens used by flagship phones from competitors. The last change in size for the iPhone series came with the iPhone 5; the phone and its immediate successors featured a display that was taller, but the same width as prior models, measuring at 4 inches diagonally. Following Apple's loss in smartphone market share to companies producing phones with larger displays reports as early as January 2014 suggested that Apple was preparing to launch new iPhone models with larger, 4.7-inch and 5.5-inch displays. Reports prior to its unveiling also speculated the possibility that Apple would use a new iPhone model to introduce a mobile payments platform using near-field communications—a technology that has been incorporated into many Android phones, but has experienced a low adoption rate among users.
 
