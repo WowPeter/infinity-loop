@@ -11,6 +11,7 @@ tags: [google analytics, jekyll]
 행복할 거라 장담은 못 하지만 적어도 실패하진 않을 거라 말할 수 있겠지. 시험을 앞둔 수험생에게 출제될 시험 문제를 미리 알고 있다면. 다가올 위험을 미리 알고 있다면. 내일 주식이 어떻게 될지 알고 있다면. 이번 주 복권 결과를 알고 있다면. 그 삶이 행복하고 안 하고를 떠나, 결코 실패하진 않을 것이다. 하지만 도대체 누가 미래를 알 수 있겠는가?
 
 ## Although we don't have a crystal ball,
+
 과거를 바탕으로 현재를 판단하여 미래를 **예측**하는 능력을 우리는 가지고 있다. (*Praise the Load* 🎉) 과거의 정보가 쌓여 있고 그것을 읽을 수 있다면 충분히 현재를 파악할 수도 있고 미래를 예측할 수도 있다. 물론 **얼마나 잘 읽는가**는 또 다른 얘기가 되겠지만. 어쨌든 데이터를 수집하고 그것을 분석하는 것은 매우!! 중요하다. Github Page는 결국 웹사이트다. 웹사이트를 위한 데이터 분석툴들은 여러 가지가 있겠지만, 내가 알고 있고 주로 사용하는 것이 **Google Analytics**니 이것을 붙여야겠다. 
 
 마음을 먹고, _config.yml 파일을 보니 다음과 같은 부분이 눈에 들어온다.
@@ -25,6 +26,7 @@ google_analytics: ""
 <!--more-->
 
 ## Google Analytics
+
 위키피디아에서는 구글 애널리틱스를 뭐라고 설명하고 있을까? [Wikipedia](https://ko.wikipedia.org/wiki/구글_애널리틱스 "위키피디아에서 구글 애널리틱스에 대한 설명")를 보면 다음과 같이 나와 있다.
 
 > 구글 애널리틱스(Google Analytics)는 현재 구글 마케팅 플랫폼 브랜드 내의 플랫폼으로서, 웹사이트 트래픽을 추적하고 보고하는 구글이 제공하는 웹 애널리틱스 서비스이다. 구글은 2005년 11월 Urchin을 인수한 이후 이 서비스를 런칭했다.
@@ -37,13 +39,15 @@ google_analytics: ""
 
 ### Google account needed
 
+당연히 구글 제품이니 구글 계정이 필요하다. 그리고 난 이미 구글 계정이 있다. 심지어 여러 개. 구글 계정이 없는 사람이 있을까? 싶을 정도로 내 주변에는 모두 가지고 있다. 난 내가 가지고 있는 여러 구글 계정들 중 하나를 골라서 로그인했다.
 
+### Creating an Analytics account
 
-> What we want to do is make a leapfrog product that is way smarter than any mobile device has ever been, and super-easy to use. This is what iPhone is. OK? So, we’re going to reinvent the phone. <cite>- Steve Jobs, 2007.</cite>
+{% include image_caption.html imageurl="images/analytics-1.png" title="Google Analytics menu" caption="좌측 하단에 있는 [관리] 메뉴" %}
 
-The iPhone 6 and iPhone 6 Plus were officially unveiled during a press event at the Flint Center for Performing Arts in Cupertino, California on September 9, 2014. The event featured other previously-rumored product announcements by Apple alongside the new iPhone models, including the [Apple Pay](https://en.wikipedia.org/wiki/Apple_Pay) mobile payment platform, and the company's entry into the wearable computing market with the Apple Watch smart watch.
+너무 오랜만에 접속한 걸까? 내 블로그를 위한 계정을 만들어야 하는데, 도대체 어디서 만들어야 하는지 보이지 않았다. 뭔가 바로 '똮' 하고 보일 거 같았는데 그러지 않았다. 이거 저거 눌러보다가 겨우겨우 저걸 찾았다. 저 **관리** 메뉴를 눌렀더니 다음 스샷처럼 계정을 만들 수 있는 메뉴가 보였다. 
 
-{% include image_full.html imageurl="/images/iphone-in-hand.jpg" title="Apple" caption="iPhone 6" %}
+{% include image_caption.html imageurl="images/analytics-2.png" title="Account menu" caption="좌측 상단에 있는 [만들기] - [계정] 메뉴" %}
 
 The iPhone 6 and iPhone 6 Plus were unveiled on September 9, 2014 and released on September 19, 2014; pre-orders began on September 12, 2014, with the iPhone 6 starting at US$649 and the iPhone 6 Plus starting at US$749. In China, where the iPhone 5S and 5C were the first models in the iPhone series to be released in the country on the same day as their international launch, Apple notified local wireless carriers that it would be unable to release the iPhone 6 and iPhone 6 Plus in China on the 19th because there were "details which are not ready"; local media reported that the devices had not yet been approved by the Ministry of Industry and Information Technology, and earlier in the year, a news report by state broadcaster China Central Television alleged that iPhone devices were a threat to national security because iOS 7's "frequent locations" function could expose "state secrets."
 
