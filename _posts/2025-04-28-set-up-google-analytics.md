@@ -14,7 +14,7 @@ tags: [google analytics, jekyll]
 
 과거를 바탕으로 현재를 판단하여 미래를 **예측**하는 능력을 우리는 가지고 있다. (*Praise the Load* 🎉) 과거의 정보가 쌓여 있고 그것을 읽을 수 있다면 충분히 현재를 파악할 수도 있고 미래를 예측할 수도 있다. 물론 **얼마나 잘 읽는가**는 또 다른 얘기가 되겠지만. 어쨌든 데이터를 수집하고 그것을 분석하는 것은 매우!! 중요하다. Github Page는 결국 웹사이트다. 웹사이트를 위한 데이터 분석툴들은 여러 가지가 있겠지만, 내가 알고 있고 주로 사용하는 것이 **Google Analytics**니 이것을 붙여야겠다. 
 
-마음을 먹고, _config.yml 파일을 보니 다음과 같은 부분이 눈에 들어온다.
+마음을 먹고, **_config.yml** 파일을 보니 다음과 같은 부분이 눈에 들어온다.
 
 ```yml
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
@@ -51,15 +51,47 @@ google_analytics: ""
 
 **[만들기] - [계정] 메뉴**를 클릭하면 다음과 같이 5 단계의 가입 절차가 보인다.
 
+{% include image_caption.html imageurl="images/analytics-3.png" title="5 steps" caption="계정을 만드는 5 단계" %}
+
 #### 1. 계정 생성
-The iPhone 6 and iPhone 6 Plus were unveiled on September 9, 2014 and released on September 19, 2014; pre-orders began on September 12, 2014, with the iPhone 6 starting at US$649 and the iPhone 6 Plus starting at US$749. In China, where the iPhone 5S and 5C were the first models in the iPhone series to be released in the country on the same day as their international launch, Apple notified local wireless carriers that it would be unable to release the iPhone 6 and iPhone 6 Plus in China on the 19th because there were "details which are not ready"; local media reported that the devices had not yet been approved by the Ministry of Industry and Information Technology, and earlier in the year, a news report by state broadcaster China Central Television alleged that iPhone devices were a threat to national security because iOS 7's "frequent locations" function could expose "state secrets."
 
-On August 2015 Apple admitted that some iPhone 6 Plus may have faulty cameras that could be causing photos to look blurry and initiated a replacement program.
+여기서는 **계정 이름**을 요구한다. 내 블로그의 이름이 **Infinity Loop**이니 그대로 입력하고, 아래에 있는 체크박스는 모두 체크했다.
 
-On September 9, 2015 the 128 GB version of both the iPhone 6 and iPhone 6 Plus was discontinued along with the gold version of both phones, the 16 GB and 64 GB versions of the iPhone 6 and iPhone 6 Plus in silver and space gray remain available for sale at a reduced price due to the release of the iPhone 6S and iPhone 6S Plus flagship devices.
+#### 2. 속성 만들기
 
-## Specifications
+속성? 그게 무슨 말이지? 무슨 속성을 말하는 걸까? 무엇을 의미하는지도 모르겠는데 이름을 입력하라니! 도대체 어쩌란 말인가? 난감하네. 어떻게 해야 하는지 몰라서 그냥 단순하게 생각했다. 내 블로그에 대한 것이니, **속성 이름**으로는 **blog**라고 썼다. **시간대**는 **대한민국**으로, **통화**는 **달러**로 했다.
 
-The design of the iPhone 6 and iPhone 6 Plus are influenced by that of the iPad Air with a glass front that is curved around the edges of the display, and an aluminum rear that contains two plastic strips for the antenna. Both models come in gold, silver, and "space gray" finishes. The iPhone 6 has a thickness of 6.9 millimetres (0.27 in), while the iPhone 6 Plus is 7.1 mm (0.28 in) in thickness; both are thinner than the iPhone 5S and iPhone 5C, with the iPhone 6 being Apple's thinnest phone to date. The most significant changes to the iPhone 6 and iPhone 6 Plus are its displays; both branded as "Retina HD Display" and "ion-strengthened", the iPhone 6 display is 4.7 inches in size with a 16:9 resolution of 1334x750 (326 PPI, minus one row of pixels), while the iPhone 6 Plus includes a 5.5-inch 1920x1080 (1080p) display (401 PPI). The displays use a multiple-domain LCD panel, dubbed "dual-domain pixels"; the RGB pixels themselves are skewed in pattern, so that every pixel is seen from a different angle. This technique helps improve the viewing angles of the display.
+#### 3. 비지니스 세부정보
 
-To accommodate the larger physical size of the iPhone 6 and iPhone 6 Plus, the power button was moved to the side of the phone instead of the top to improve its accessibility. The iPhone 6 features a 6.91 Wh (1810 mAh) battery, while the iPhone 6 Plus features a 11.1 Wh (2915 mAh) battery. Unlike the previous model, the rear-facing camera is not flush with the rear of the device, and has a slight "bulge" around the lens. It has a dual-core 1.4 GHz Cyclone processor (ARM v8-based). [ [Source](https://en.wikipedia.org/wiki/IPhone_6) ]
+**업종 카테고리**는 블로그를 만들었으니 **온라인 커뮤니티**가 맞는 거 같다. **비지니스 규모**라.. 이게 비지니스인가 싶었지만, 뭐라 부르든 어떠하리! 그래서 젤 작은 걸로 선택했다.
+
+#### 4. 비지니스 목표
+
+으음.. 난 비지니스를 하는 게 아닌데, 자꾸 비지니스에 맞춰서 물어보네. 보기들 중에 2개까지 고를 수 있다고 하니, 나에게 가장 그럴 듯한 것을 골랐다. **웹 또는 앱 트래픽 파악** 그리고 **사용자 참여 발생 시간 및 유지율 보기**
+
+#### 5. 데이터 수집
+
+약관 동의하고 데이터 수집할 플랫폼 선택하고 데이터 스트림 설정까지 다 끝내니, 갑자기(?) 다음과 같은 화면이 나왔다.
+
+{% include image_caption.html imageurl="images/analytics-11.png" title="구글 태그 설정" caption="구글 태그 설정" %}
+
+이게 뭐지? 그냥 가볍게 넘겼다. 하지만, 이후 삽질 1 시간 만에 이게 중요했다는 것을 알게 되었다. 그 삽질에 대한 내용은 아래에 계속...
+
+#### 웹 스트림 세부정보
+
+{% include image_caption.html imageurl="images/analytics-12.png" title="웹 스트림 세부정보" caption="웹 스트림 세부정보" %}
+
+다른 건 몰라도, 감각적으로 **G-XXXXXXXXXX**이라고 표시된 값이 중요하다는 것을 알았다. 이런 건 일단 복사하고 봐야한다. 물론 나중에 잘 찾으면 언제든 볼 수 있는 것 일테지만. 경험상 이런 값은 한 번 설정만 잘 하면 두 번 다시 볼 일이 없는 값이다. 자! 이제 이 값을 써 먹어 볼까?
+
+#### 다시, _config.yml
+
+**_config.yml** 파일에서 봤던 다음과 같은 부분을 찾아서 **google_analytics**에 값을 넣는다.
+
+```yml
+# Google Analytics id, e.g. "UA-NNNNNNNN-N"
+google_analytics: "G-XXXXXXXXXX"
+```
+
+그런데, 알 수 없는 싸늘한 느낌이 온다. 무언가 잘못된 느낌이 든다. 그 불길한 느낌을 준 것은 바로 주석의 내용이었다. "UA-NNNNNNNN-N" 이렇게 생긴 것을 넣으라는 것인데, 내가 복사한 값은 "G-XXXXXXXXXX"다. '_기분 탓 일거야_'라며 애써 외면하고 구글 애널리틱스를 켜 놓고 블로그를 새로고침 해본다. 실시간 Peak가 올라오지 않는다. 아마 내가 조급한 거겠지. 다시 블로그를 새로고침한다. 아직 실시간 Peak가 올라오지 않는다. 이건 뭔가 잘못된 거다.
+
+아까의 '불길함'부터 실마리를 풀어 본다.
