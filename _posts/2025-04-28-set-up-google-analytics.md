@@ -49,6 +49,9 @@ google_analytics: ""
 
 {% include image_caption.html imageurl="images/analytics-2.png" title="Account menu" caption="좌측 상단에 있는 [만들기] - [계정] 메뉴" %}
 
+**[만들기] - [계정] 메뉴**를 클릭하면 다음과 같이 5 단계의 가입 절차가 보인다.
+
+#### 1. 계정 생성
 The iPhone 6 and iPhone 6 Plus were unveiled on September 9, 2014 and released on September 19, 2014; pre-orders began on September 12, 2014, with the iPhone 6 starting at US$649 and the iPhone 6 Plus starting at US$749. In China, where the iPhone 5S and 5C were the first models in the iPhone series to be released in the country on the same day as their international launch, Apple notified local wireless carriers that it would be unable to release the iPhone 6 and iPhone 6 Plus in China on the 19th because there were "details which are not ready"; local media reported that the devices had not yet been approved by the Ministry of Industry and Information Technology, and earlier in the year, a news report by state broadcaster China Central Television alleged that iPhone devices were a threat to national security because iOS 7's "frequent locations" function could expose "state secrets."
 
 On August 2015 Apple admitted that some iPhone 6 Plus may have faulty cameras that could be causing photos to look blurry and initiated a replacement program.
