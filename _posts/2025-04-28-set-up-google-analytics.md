@@ -96,4 +96,45 @@ google_analytics: "G-XXXXXXXXXX"
 
 아까의 '불길함'부터 실마리를 풀어 본다.
 
-그래! 돌이켜보니 저 "UA-"로 시작하는 주석이 마음에 걸렸다. '_왜 내가 구글 애널리틱스에서 복사한 값은 **G**로 시작하는 걸까?_'
+그래! 돌이켜보니 저 "UA-"로 시작하는 주석이 마음에 걸렸다. '_왜 구글 애널리틱스에서 내가 복사한 값은 "G-"로 시작하는 걸까?_' UA와 G가 무엇을 의미하는지 살펴보면 명확해진다. UA는 **Universal Analytics**를 의미하며 G는 **Google Analytics 4**를 의미한다. 이 둘의 차이점을 자세히 쓰진 않겠다. 그냥 Universal Analytics는 옛날(나쁘다는 뜻이 아닌 시간적으로 이전)에 쓰던 것이고 Google Analytics 4는 그 이후에 나온 것이다. 
+
+정리하자면, 지금 내가 사용하는 Jekylll theme은 예전에 만들어진 것이며 그 때 당시 사용되던 Universal Analytics를 지원하게 되어 있다는 것이다.
+
+으음.. 그래서.. 이를 어떤다!!
+
+#### google_analytics.html
+
+망연자실한 상태로 시간이 꽤 흘렀다. 구글링도 해보고 이것저것 바꿔보고 다 실패하였다. github page의 단점인가? 싶은 생각도 들었다. 분명히 내가 무언가를 이해하지 못하고 있는데, 그게 무엇인지 모르는 그런 상태. 답답하다. 답답한 마음에 theme에 있는 파일들을 하나씩 살펴보았다. 그러다 발견한 파일. **google_analytics.html**은 다음과 같은 모습이었다.
+
+
+```html
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site.google_analytics }}', 'auto');
+  ga('send', 'pageview');
+</script>
+```
+
+html 파일? 아까 html 코드 같은 걸 어디서 봤는데? 그렇다. Google Analytics 계정 만들 때 나왔던 코드가 있었다. 그래서 부랴부랴 그 코드를 다시 찾아 복사하고 형식에 맞게 수정하였다.
+
+```html
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', '{{ site.google_analytics }}');
+</script>
+```
+
+기대하는 마음으로 수정된 파일을 반영하고 애널리틱스를 바라 보았다.
+
+{% include image_caption.html imageurl="images/analytics-13.png" title="Google Analytics realtime" caption="구글 애널리틱스 실시간 개요" %}
+
+ㅋㅑ~~~ 드디어 peak가 나타났다! 드디어 성공! 🎉
