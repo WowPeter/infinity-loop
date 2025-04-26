@@ -106,32 +106,11 @@ google_analytics: "G-XXXXXXXXXX"
 
 망연자실한 상태로 시간이 꽤 흘렀다. 구글링도 해보고 이것저것 바꿔보고 다 실패하였다. github page의 단점인가? 싶은 생각도 들었다. 분명히 내가 무언가를 이해하지 못하고 있는데, 그게 무엇인지 모르는 그런 상태. 답답하다. 답답한 마음에 theme에 있는 파일들을 하나씩 살펴보았다. 그러다 발견한 파일. **google_analytics.html**은 다음과 같은 모습이었다.
 
+{% include image_caption.html imageurl="images/analytics-12-1.png" title="google_analytics.html (previous)" caption="기존의 google_analytics.html 코드" %}
 
-```html
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+html 파일? 아까 html 코드 같은 걸 어디서 봤는데? 그렇다. Google Analytics 계정 만들 때 나왔던 코드(**위에 있는 "구글 태그 설정" 스샷의 코드**)가 있었다. 그래서 부랴부랴 그 코드를 다시 찾아 복사하고 형식에 맞게 수정하였다.
 
-  ga('create', '{{ site.google_analytics }}', 'auto');
-  ga('send', 'pageview');
-</script>
-```
-
-html 파일? 아까 html 코드 같은 걸 어디서 봤는데? 그렇다. Google Analytics 계정 만들 때 나왔던 코드가 있었다. 그래서 부랴부랴 그 코드를 다시 찾아 복사하고 형식에 맞게 수정하였다.
-
-
-> <!-- Google tag (gtag.js) --> <br />
-> <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-> <script>
->     window.dataLayer = window.dataLayer || [];
->     function gtag(){dataLayer.push(arguments);}
->     gtag('js', new Date());
->   
->     gtag('config', '{{ site.google_analytics }}');
-> </script>
-
+{% include image_caption.html imageurl="images/analytics-12-2.png" title="google_analytics.html (new)" caption="새롭게 수정된 google_analytics.html 코드" %}
 
 기대하는 마음으로 수정된 파일을 반영하고 애널리틱스를 바라 보았다.
 
