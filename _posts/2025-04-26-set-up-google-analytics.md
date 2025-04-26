@@ -2,7 +2,7 @@
 layout: post
 title: "Google Analytics 넣어보기"
 description: "How to set up Google Analytics"
-date: 2025-04-28
+date: 2025-04-26
 feature_image: images/analytics.jpg
 tags: [google analytics, jekyll]
 ---
