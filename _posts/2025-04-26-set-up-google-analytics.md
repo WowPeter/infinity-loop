@@ -100,7 +100,7 @@ google_analytics: "G-XXXXXXXXXX"
 
 정리하자면, 지금 내가 사용하는 Jekyll theme은 예전에 만들어진 것이며 그 때 당시 사용되던 Universal Analytics를 지원하게 되어 있다는 것이다.
 
-으음.. 그래서.. 이를 어떤다!!
+으음.. 그래서.. 이를 어쩐다!!
 
 #### google_analytics.html
 
@@ -116,4 +116,5 @@ html 파일? 아까 html 코드 같은 걸 어디서 봤는데? 그렇다. Googl
 
 {% include image_caption.html imageurl="images/analytics-13.png" title="Google Analytics realtime" caption="구글 애널리틱스 실시간 개요" %}
 
-ㅋㅑ~~~ 드디어 peak가 나타났다! 드디어 성공! 🎉
+ㅋㅑ~~~<br />
+드디어 peak가 나타났다! 드디어 성공! 🎉
