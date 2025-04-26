@@ -98,7 +98,7 @@ google_analytics: "G-XXXXXXXXXX"
 
 그래! 돌이켜보니 저 "UA-"로 시작하는 주석이 마음에 걸렸다. '_왜 구글 애널리틱스에서 내가 복사한 값은 "G-"로 시작하는 걸까?_' UA와 G가 무엇을 의미하는지 살펴보면 명확해진다. UA는 **Universal Analytics**를 의미하며 G는 **Google Analytics 4**를 의미한다. 이 둘의 차이점을 자세히 쓰진 않겠다. 그냥 Universal Analytics는 옛날(나쁘다는 뜻이 아닌 시간적으로 이전)에 쓰던 것이고 Google Analytics 4는 그 이후에 나온 것이다. 
 
-정리하자면, 지금 내가 사용하는 Jekylll theme은 예전에 만들어진 것이며 그 때 당시 사용되던 Universal Analytics를 지원하게 되어 있다는 것이다.
+정리하자면, 지금 내가 사용하는 Jekyll theme은 예전에 만들어진 것이며 그 때 당시 사용되던 Universal Analytics를 지원하게 되어 있다는 것이다.
 
 으음.. 그래서.. 이를 어떤다!!
 
@@ -121,17 +121,17 @@ google_analytics: "G-XXXXXXXXXX"
 
 html 파일? 아까 html 코드 같은 걸 어디서 봤는데? 그렇다. Google Analytics 계정 만들 때 나왔던 코드가 있었다. 그래서 부랴부랴 그 코드를 다시 찾아 복사하고 형식에 맞게 수정하였다.
 
-```html
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', '{{ site.google_analytics }}');
-</script>
-```
+
+> <!-- Google tag (gtag.js) --> <br />
+> <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+> <script>
+>     window.dataLayer = window.dataLayer || [];
+>     function gtag(){dataLayer.push(arguments);}
+>     gtag('js', new Date());
+>   
+>     gtag('config', '{{ site.google_analytics }}');
+> </script>
+
 
 기대하는 마음으로 수정된 파일을 반영하고 애널리틱스를 바라 보았다.
 
