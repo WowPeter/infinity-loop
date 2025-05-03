@@ -2,7 +2,7 @@
 layout: post
 title: "[위탁 판매 여정기] 0. 그런데.. 그게 대체 뭐야?"
 description: "What is consignment sales and how to?"
-date: 2025-05-03
+date: 2025-05-09
 feature_image: images/disappointed.png
 tags: [위탁 판매, consignment, work]
 ---
