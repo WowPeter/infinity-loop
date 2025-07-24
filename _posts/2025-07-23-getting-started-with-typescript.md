@@ -7,7 +7,7 @@ feature_image: images/book-typescript-1.png
 tags: [나의 첫 타입스크립트 프로젝트, typescript, book, review]
 ---
 
-# Chapter 1. 처음 만나는 타입스트립트
+# Chapter 1. 처음 만나는 타입스크립트
 
 타입스크립트는 자바스크립트의 확장 언어로, 자바스크립트의 고질적인 문제를 해결하면서도 다양한 장점을 제공하는 언어다. 타입스크립트의 개념, 장점, 활용에 대해 알아본다.
 
