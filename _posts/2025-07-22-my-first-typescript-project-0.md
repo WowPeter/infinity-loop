@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[나의 첫 타입스크립트 프로젝트] 0.들어가며"
+title: "[나의 첫 타입스크립트 프로젝트] 들어가며"
 description: "My first step for typescript."
 date: 2025-07-22
 feature_image: images/my-first-typescript-project.jpeg
