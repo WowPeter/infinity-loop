@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[나의 첫 타입스크립트 프로젝트] Chapter 3."
-description: "TypeScript Basics3"
+description: "TypeScript Basics"
 date: 2025-07-28
 feature_image: images/book-typescript-3.png
 tags: [나의 첫 타입스크립트 프로젝트, typescript, book, review]
