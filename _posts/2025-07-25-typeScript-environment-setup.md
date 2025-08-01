@@ -26,19 +26,19 @@ tags: [나의 첫 타입스크립트 프로젝트, typescript, book, review]
 그 이유는 타입스크립트를 서버 또는 컴퓨터에서 실행되도록 하기 위해 런타입 환경이 필요한데, 그것을 자바스크립트 런타입 환경인 노드로 한다는 것이다.
 이렇게 되면 타입스크립트 파일을 자바스크립트 파일로 변환해야 하는데 그것을 트랜스파일<sub>transpile</sub>이라고 하며 타입스크립트가 그것을 가능하게 한다.
 
-[Node.js 공식 사이트](https://nodejs.org)에서 **LTS**<sub>Long Term Support</sub> 버전을 다운로드하여 설치한다.
+[Node.js 공식 사이트](https://nodejs.org){:target="_blank"}에서 **LTS**<sub>Long Term Support</sub> 버전을 다운로드하여 설치한다.
 {% include image_caption.html imageurl="images/book-typescript-2-1.png" title="Node.js Download" caption="Node.js 다운로드" %}
 
 ### 2.1.2 IDE 설치
 
 **통합 개발 환경**<sub>Integrated Development Environment, IDE</sub>를 설치한다.
 노드 진영에서는 WebStorm과 VSCode가 자주 쓰이는데, 이 책에서는 VSCode를 사용한다.
-[VSCode 공식 사이트](https://code.visualstudio.com)에서 설치 파일을 다운로드하여 설치한다.
+[VSCode 공식 사이트](https://code.visualstudio.com){:target="_blank"}에서 설치 파일을 다운로드하여 설치한다.
 {% include image_caption.html imageurl="images/book-typescript-2-2.png" title="VSCode Download" caption="VSCode 다운로드" %}
 
 ### 2.1.3 타입스크립트 설치
 
-타입스크립트를 설치한다. [typescript 공식 사이트](https://www.typescriptlang.org)에서 안내하는 방법이 있지만, 책에서는 다음과 같이 설치하라고 한다.
+타입스크립트를 설치한다. [typescript 공식 사이트](https://www.typescriptlang.org){:target="_blank"}에서 안내하는 방법이 있지만, 책에서는 다음과 같이 설치하라고 한다.
 ```bash
 npm i -g typescript
 ```
@@ -138,7 +138,7 @@ tsc --init
 이 명령을 실행하면 `tsconfig.json` 파일이 생성된다.
 
 + `tsconfig.json` 파일은 타입스크립트 프로젝트를 설정하고 어떻게 자바스크립트 파일로 변환할지 설정하는 파일이다.
-  + 이 파일에 대해 자세한 설명은 [공식 문서](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)를 참고한다.
+  + 이 파일에 대해 자세한 설명은 [공식 문서](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html){:target="_blank"}를 참고한다.
 
 `index.ts` 이름의 새로운 파일을 만들고, 다음의 코드를 입력한다. 
 ```typescript

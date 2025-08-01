@@ -27,7 +27,7 @@ google_analytics: ""
 
 ## Google Analytics
 
-위키피디아에서는 구글 애널리틱스를 뭐라고 설명하고 있을까? [Wikipedia](https://ko.wikipedia.org/wiki/구글_애널리틱스 "위키피디아에서 구글 애널리틱스에 대한 설명")를 보면 다음과 같이 나와 있다.
+위키피디아에서는 구글 애널리틱스를 뭐라고 설명하고 있을까? [Wikipedia](https://ko.wikipedia.org/wiki/구글_애널리틱스 "위키피디아에서 구글 애널리틱스에 대한 설명"){:target="_blank"}를 보면 다음과 같이 나와 있다.
 
 > 구글 애널리틱스(Google Analytics)는 현재 구글 마케팅 플랫폼 브랜드 내의 플랫폼으로서, 웹사이트 트래픽을 추적하고 보고하는 구글이 제공하는 웹 애널리틱스 서비스이다. 구글은 2005년 11월 Urchin을 인수한 이후 이 서비스를 런칭했다.
 > 
