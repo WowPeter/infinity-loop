@@ -15,7 +15,7 @@ tags: [나의 첫 타입스크립트 프로젝트, typescript, book, review]
 
 ## 5.1 클래스와 인터페이스
 
-[Chapter 4. 타입스크립트 스킬](https://wowpeter.github.io/infinity-loop/typescript-skills)의 마지막 부분에서도 작성했지만,
+[Chapter 4. 타입스크립트 스킬](https://wowpeter.github.io/infinity-loop/typescript-skills){:target="_blank"}의 마지막 부분에서도 작성했지만,
 객체 지향에 대한 올바른 이해가 선행되어야 객체 지향 개념에 맞는 설계가 되고 그래야 유기적으로 동작하는 코드가 발생한다.
 여기서 표현한 '유기적으로 동작하는 코드'는 '완벽한 코드'라는 의미가 아니다. 나는 완벽한 코드라는 것은 없다고 감히 말한다.
 다만 그 코드를 작성할 때 주어진 환경에서 **최선을 다한 코드**가 존재할 뿐이다.

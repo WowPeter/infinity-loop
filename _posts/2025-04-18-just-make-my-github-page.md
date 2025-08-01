@@ -16,7 +16,7 @@ tags: [github page]
 그래서, **Github Page**를 해본다.
 
 ## Why Github Page
-[Github Page](https://pages.github.com "Github Page")는 나에게 매우 매력적으로 다가왔다.
+[Github Page](https://pages.github.com "Github Page"){:target="_blank"}는 나에게 매우 매력적으로 다가왔다.
 
 <!--more-->
 
@@ -30,4 +30,4 @@ tags: [github page]
 **자유에는 책임(의무)이 따른다.** 내 블로그를 내 맘대로 만들 수 있다는 것은 그 만큼의 노력이 필요하다는 뜻이다. 단순히 포스팅을 하는 수고로움 뿐만 아니라 사이트를 관리하고 다듬어야 하는 책임이 따른다. 블로그 서비스를 이용했다면 하지 않아도 되는 일들을 직접 해야 한다. 하지만 그렇기 때문에 내 블로그에 대한 자유가 생긴다. 흰 바탕에 파란 글씨들로 채워진 모양을 만든다해도 그건 내 자유다. 이 얼마나 멋지고 수고스런 일인가! 🩷    
 
 ## Keep looping
-나는 이 멋진 블로그 세계로 들어간다. 걷다보면 Github Page의 그늘도 보게 되리라. 그리고 그것 또한 봐야할 풍경이리라. 이 길의 시작을 [Scriptor Ghost Theme](https://justgoodthemes.com/ghost-themes/scriptor/ "Scriptor Ghost Theme")으로 시작해본다.
+나는 이 멋진 블로그 세계로 들어간다. 걷다보면 Github Page의 그늘도 보게 되리라. 그리고 그것 또한 봐야할 풍경이리라. 이 길의 시작을 [Scriptor Ghost Theme](https://justgoodthemes.com/ghost-themes/scriptor/ "Scriptor Ghost Theme"){:target="_blank"}으로 시작해본다.
