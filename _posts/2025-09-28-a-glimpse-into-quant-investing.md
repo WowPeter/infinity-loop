@@ -3,7 +3,7 @@ layout: post
 title: "퀀트 투자, 맛보기"
 description: "A Glimpse into Quant Investing"
 date: 2025-08-07
-feature_image: images/quant-intro.png
+feature_image: images/quant-0.png
 tags: [퀀트 투자, quant investing]
 ---
 
