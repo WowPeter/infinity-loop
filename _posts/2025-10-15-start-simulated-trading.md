@@ -2,7 +2,7 @@
 layout: post
 title: "모의투자로 퀀트 전략 검증하기 D-day"
 description: "A Glimpse into Quant Investing"
-date: 2025-10-14
+date: 2025-10-15
 feature_image: images/simulated-trading.png
 tags: [퀀트 투자, quant investing, 모의투자]
 ---
@@ -12,7 +12,7 @@ tags: [퀀트 투자, quant investing, 모의투자]
 
 코딩을 하면서, 일종의 직업병처럼(나는 정통? 개발자다!) 특정 종목들에 대해 단위 테스트를 해왔다. 내가 만든 코드지만, 솔직히 어느 정도 자신감과 신뢰감이 있다.<br />
 하지만, 그건 그저 내 느낌인 거고. **뭔가 실질적이면서 설득력있는 그런 실험이 필요하고 느꼈다.**<br />
-그래서 오늘부터 **모의투자 프로젝트**를 실행한다. 
+그래서 오늘부터 **모의투자 프로젝트**를 실행한다.<br />
 
 <!--more-->
 
