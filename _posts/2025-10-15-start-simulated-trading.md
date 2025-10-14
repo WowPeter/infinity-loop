@@ -2,7 +2,7 @@
 layout: post
 title: "모의투자로 퀀트 전략 검증하기 D-day"
 description: "A Glimpse into Quant Investing"
-date: 2025-10-15
+date: 2025-10-14
 feature_image: images/simulated-trading.png
 tags: [퀀트 투자, quant investing, 모의투자]
 ---
