@@ -47,6 +47,13 @@ tags: [퀀트 투자, quant investing, 모의투자]
 
 ---
 
+플러스와 마이너스 종목의 수에 대해 알게되니, 플러스는 얼마나 플러스이고 마이너스는 얼마나 마이너스인지 궁금해졌다. 당일 기준으로 보유하고 있는 종목들 중, 최고의 수익률은 몇 %이고 최저의 수익률은 몇 %일까?
+당연한 얘기겠지만, 최고의 수익률을 내던 종목 또는 최저의 수익률을 내던 종목을 매도하게 되면 해당 종목은 다음날 통계에 잡히지 않는다.
+말 그대로 현재 보유하고 있는 종목들 중에서 최고/최저 수익률이 몇 %인지를 표시한 차트다.
+{% include image_caption.html imageurl="images/m-0-chart-5.png" title="(당일 기준) 현재 보유 중인 종목 중 최고/최저 수익률" caption="(당일 기준) 현재 보유 중인 종목 중 최고/최저 수익률" %}
+
+---
+
 > 모의투자 프로젝트에서 진행된 모든 기록(매수/매도 일시, 종목명, 종가, 자산, 수익률 등)을 가감없이 공개할 예정이다.
 > 다만, 이 프로젝트에 적용된 투자 전략은 공개되진 않을 것이다.
 > 
@@ -56,6 +63,5 @@ tags: [퀀트 투자, quant investing, 모의투자]
 
 ---
 
-**M+0 모의투자 전체 데이터 다운로드:** [simulated-trading-m-0.csv](/images/simulated-trading-m-0.csv)
-
-**M+0 차트 데이터 다운로드:** [simulated-trading-profit-m-0.csv](/images/simulated-trading-profit-m-0.csv)
+**M+0 모의투자 전체 데이터 다운로드:** [simulated-trading-m-0.csv](/images/simulated-trading-m-0.csv)<br />
+**M+0 차트 데이터 다운로드:** [simulated-trading-profit-m-0.csv](/images/simulated-trading-profit-m-0.csv)<br />
