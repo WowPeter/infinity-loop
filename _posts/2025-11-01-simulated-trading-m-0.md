@@ -23,6 +23,8 @@ tags: [퀀트 투자, quant investing, 모의투자]
 > 데이터는 csv 파일로 이 포스트 하단에 링크를 걸어 두었으니, 다운로드할 수 있다.
 > 모의투자 전체 데이터와 차트를 그리기 위해 종합한 데이터가 있다.
 
+---
+
 먼저, 누적된 **최종 수익률 차트**를 보자.<br />
 초기 2일간 마이너스 수익률을 보이다가 그 뒤로는 플러스로 전환된 것을 볼 수 있다. 이 즈음에 코스피 시장이 좋아져서 플러스가 되었다고 보지만,
 월말로 갈수록 매수했지만 수익을 내지 못한 많은 종목들에 대해 "데드크로스" 또는 "손절" 신호가 와서 매도하다보니 수익률이 줄어들었다.
@@ -32,6 +34,18 @@ tags: [퀀트 투자, quant investing, 모의투자]
 {% include image_caption.html imageurl="images/m-0-chart-1.png" title="누적 최종 수익률" caption="누적 최종 수익률" %}
 {% include image_caption.html imageurl="images/m-0-chart-2.png" title="총 수익" caption="총 수익" %}
 
+---
+
+다음으로 이 실험(?)에서 궁금했던 것은, **수익률이 마이너스가 몇 개고 플러스가 몇 개인지**였다. 물론 주식 시장에 따라 그 수와 비율이 달라지겠지만, 투자된 종목들의 현재 상태를 알고 싶어졌다.
+그래서, **수익률에 대한 누적 종목 수** 차트를 정리했다.
+{% include image_caption.html imageurl="images/m-0-chart-3.png" title="수익률에 대한 누적 종목 수" caption="수익률에 대한 누적 종목 수" %}
+
+이렇게 정리하고 보니,<br />
+'이미 정리한(매도한) 주식이 차트에 영향을 주고 있음'을 인지하고 매도된 종목을 빼고 현재 보유중인 종목으로 수를 한정하여 차트를 정리했다.
+다음의 차트는 **(당일 기준) 현재 보유 중인 종목 대상으로 한정된 수익률에 대한 누적 종목 수** 차트다.
+{% include image_caption.html imageurl="images/m-0-chart-4.png" title="(당일 기준) 현재 보유 중인 종목 대상으로 한정된 수익률에 대한 누적 종목 수" caption="(당일 기준) 현재 보유 중인 종목 대상으로 한정된 수익률에 대한 누적 종목 수" %}
+
+---
 
 > 모의투자 프로젝트에서 진행된 모든 기록(매수/매도 일시, 종목명, 종가, 자산, 수익률 등)을 가감없이 공개할 예정이다.
 > 다만, 이 프로젝트에 적용된 투자 전략은 공개되진 않을 것이다.
@@ -43,4 +57,5 @@ tags: [퀀트 투자, quant investing, 모의투자]
 ---
 
 **M+0 모의투자 전체 데이터 다운로드:** [simulated-trading-m-0.csv](/images/simulated-trading-m-0.csv)
+
 **M+0 차트 데이터 다운로드:** [simulated-trading-profit-m-0.csv](/images/simulated-trading-profit-m-0.csv)
