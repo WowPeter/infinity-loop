@@ -7,7 +7,7 @@ feature_image: images/website-the-bull-up.png
 tags: [퀀트 투자, quant investing, 웹사이트, 더블업, 더불업, the bull up]
 ---
 
-볼품없지만, 웹사이트를 만들었다. [The Bull Up](https://www.thebullup.com){:target="_blank"}<br />
+볼품없지만, 웹사이트를 만들었다. [The Bull Up (https://www.thebullup.com)](https://www.thebullup.com){:target="_blank"}<br />
 약간의 설정이 어려웠지만 슬기롭게(?) 해결하고 도메인을 연결했다. 스스로가 대견하다! 😎
 
 모두가 그러하듯 나 역시 새로운 무언가를 만들 때는 '의미있고 유용한 것'을 만들려고 하고 그렇게 되길 바란다. 나에게도 도움이 되지만 다른 이에게도 도움이 되는 것.
